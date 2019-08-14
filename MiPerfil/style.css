@@ -1,14 +1,43 @@
 .navbar-brand{
   font-family: 'Lobster', cursive;
+  font-size: 40px;
 }
 
 #rouzajorPhoto{
-  border-radius: 30%;
+  border-radius: 50%;
   width: 50%;
   display: block;
   margin: auto;
 }
 
-.darkBack{
+.aboutBack{
   background-color: #F9AFBB;
+}
+
+.titulos{
+  font-family: 'Lobster', cursive;
+}
+
+.educationPhoto{
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.textoNormal{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+.interestsPhoto{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.interestsText{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
 }
