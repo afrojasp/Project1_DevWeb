@@ -1,34 +1,14 @@
-  .nickname{
-    font-family: "Open Sans";
-    font-style: oblique;
-    text-align: center;
-  }
-  .tweet{
-    font-family: fantasy;
-    text-align: center;
-  }
-  .fecha{
-    text-align: right;
-    padding: 2px;
-  }
-  .card {
-    background-color: #E2EDF7;
-    width: 20%;
-    border-radius: 5px;
-    border: 1px solid black;
-  }
-  .photo{
-    display: block;
-    margin: 0 auto;
-    width: 30%
-  }
-  html{
-    background-color: lightgoldenrodyellow;
-  }
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+}
 
-  body{
-    margin: 5px;
-    padding: 10px 10px 10px 10px;
-    border: 5px solid black;
-  }
-  
+#rouzajorPhoto{
+  border-radius: 30%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.darkBack{
+  background-color: #F9AFBB;
+}
