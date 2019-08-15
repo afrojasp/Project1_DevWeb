@@ -20,6 +20,7 @@
 
 .educationPhoto{
   width: 60%;
+  height: 80%;
   display: block;
   margin: auto;
 }
@@ -40,4 +41,52 @@
   font-size: 20px;
   text-align: center;
   padding: 10px;
+}
+
+.skillsPhoto{
+  display: block;
+  margin: auto;
+  width:  200px;
+  height: 200px;
+}
+
+.checked{
+  color: orange;
+}
+
+.skillsNumberBar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.contenedorBar{
+  width: 100%;
+  background-color: #F9AFBB;
+}
+
+.javaBar{
+  width: 95%;
+  background-color: #5A141A;
+}
+
+.pythonBar{
+  width: 70%;
+  background-color: #5A141A;
+}
+
+.webTechBar{
+  width: 60%;
+  background-color: #5A141A;
+}
+
+.sqlBar{
+  width: 80%;
+  background-color: #5A141A;
+}
+
+.galleryPhotos{
+  width: 1px;
+  height: 1px;
 }
