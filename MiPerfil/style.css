@@ -11,7 +11,12 @@
 }
 
 .aboutBack{
-  background-color: #F9AFBB;
+  /*background-color: #F9AFBB;*/
+  background-color: #c67b6c;
+}
+
+.educationBack{
+  background-color: #ffdfcb;
 }
 
 .titulos{
@@ -19,10 +24,12 @@
 }
 
 .educationPhoto{
-  width: 60%;
-  height: 80%;
+  width: 200px;
+  height: 200px;
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 .textoNormal{
@@ -31,7 +38,8 @@
 }
 
 .interestsPhoto{
-  width: 50%;
+  width: 150px;
+  height: 150px;
   display: block;
   margin: auto;
 }
@@ -44,10 +52,10 @@
 }
 
 .skillsPhoto{
+  width:  150px;
+  height: 150px;
   display: block;
   margin: auto;
-  width:  200px;
-  height: 200px;
 }
 
 .checked{
@@ -63,7 +71,7 @@
 
 .contenedorBar{
   width: 100%;
-  background-color: #F9AFBB;
+  background-color: #ffbfb0;
 }
 
 .javaBar{
@@ -87,6 +95,5 @@
 }
 
 .galleryPhotos{
-  width: 1px;
-  height: 1px;
+  height: 600px;
 }
