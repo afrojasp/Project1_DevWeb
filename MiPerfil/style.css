@@ -1,26 +1,40 @@
 .navbar-brand{
   font-family: 'Lobster', cursive;
   font-size: 40px;
+  color: #000000;
 }
 
 #rouzajorPhoto{
-  border-radius: 50%;
+  border-radius: 100px 50px 100px 200px; 
   width: 50%;
   display: block;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .aboutBack{
   /*background-color: #F9AFBB;*/
-  background-color: #c67b6c;
+  background-color: #000000;
 }
 
 .educationBack{
-  background-color: #ffdfcb;
+  background-color: #5a141a;
 }
 
-.titulos{
+.titulosRed{
   font-family: 'Lobster', cursive;
+  color: #5a141a;
+  font-size:100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.titulosBlack{
+  font-family: 'Lobster', cursive;
+  color: #000000;
+  font-size:100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .educationPhoto{
@@ -29,12 +43,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-.textoNormal{
+.textoNormalRed{
   font-family: 'Abel', sans-serif;
   font-size: 20px;
+  color: #5a141a;
+}
+
+.textoNormalBlack{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: #000000;
 }
 
 .interestsPhoto{
@@ -42,6 +64,7 @@
   height: 150px;
   display: block;
   margin: auto;
+  color: #5a141a;
 }
 
 .interestsText{
@@ -49,6 +72,7 @@
   font-size: 20px;
   text-align: center;
   padding: 10px;
+  color: #5a141a;
 }
 
 .skillsPhoto{
@@ -71,29 +95,36 @@
 
 .contenedorBar{
   width: 100%;
-  background-color: #ffbfb0;
+  background-color: #5a141a;
+  border-style: solid;
+  border-color: black;
 }
 
 .javaBar{
   width: 95%;
-  background-color: #5A141A;
+  background-color: #000000;
+  color: #5a141a;
 }
 
 .pythonBar{
   width: 70%;
-  background-color: #5A141A;
+  background-color: #000000;
+  color: #5a141a;
 }
 
 .webTechBar{
   width: 60%;
-  background-color: #5A141A;
+  background-color: #000000;
+  color: #5a141a;
 }
 
 .sqlBar{
   width: 80%;
-  background-color: #5A141A;
+  background-color: #000000;
+  color: #5a141a;
 }
 
 .galleryPhotos{
   height: 600px;
+  width:  600px;
 }
