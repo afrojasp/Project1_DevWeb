@@ -12,8 +12,12 @@
   padding-bottom: 20px;
 }
 
+#rouzajorPhoto:hover{
+  width: 55%;
+  transition: 0.5s;
+}
+
 .aboutBack{
-  /*background-color: #F9AFBB;*/
   background-color: #000000;
 }
 
@@ -49,14 +53,24 @@
 
 .textoNormalRed{
   font-family: 'Abel', sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   color: #5a141a;
+}
+
+.textoNormalRed:hover{
+  font-size: 23px;
+  transition: 0.25s;
 }
 
 .textoNormalBlack{
   font-family: 'Abel', sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   color: #000000;
+}
+
+.textoNormalBlack:hover{
+  font-size: 23px;
+  transition: 0.25s;
 }
 
 .interestsPhoto{
@@ -75,15 +89,16 @@
   color: #5a141a;
 }
 
+.interestsText:hover{
+  font-size: 22px;
+  transition: 0.25s;
+}
+
 .skillsPhoto{
   width:  150px;
   height: 150px;
   display: block;
   margin: auto;
-}
-
-.checked{
-  color: orange;
 }
 
 .skillsNumberBar {
@@ -127,4 +142,46 @@
 .galleryPhotos{
   height: 600px;
   width:  600px;
+  margin-bottom: 30px;
+}
+
+.contactPhoto{
+  width:  100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#outlookPhoto{
+  width:  100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1px;
+}
+
+div.correoEscondido{
+  display: none;
+}
+
+#outlookPhoto:hover+div.correoEscondido{
+  display: block;
+  font-family: 'Abel', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color: #000000;  
+}
+
+.footerRouz{
+  background-color: #000000;
+}
+
+.footerText{
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #5a141a;
+  text-align: center;
 }
