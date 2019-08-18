@@ -2,7 +2,7 @@ var football = document.getElementById("football-photo");
 var playstation = document.getElementById("playstation-photo");
 var programming = document.getElementById("programming-photo");
 
-alert("Hello, I recommend that you interact with the different elements of my web page, try to place the pointer on top of the elements and even some will react if you click them.");
+alert("Hello, I recommend you to interact with the different elements of my web page, try to place the pointer on top of the elements and even some will react if you click them.");
 
 football.onclick = function(){
   var src = football.getAttribute("src");
