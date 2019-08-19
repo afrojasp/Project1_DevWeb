@@ -1,5 +1,6 @@
 # Rouzajor's Web Page: https://afrojasp.github.io/RouzajorWebPage/
 <p>This web page shows my personal information and my personal insterests. Feel free to browse around and if you like my work you can contact me with the infromation i provided. I did not use a template, i made it by myself in order to learn design skills.</p>
+# Slides: https://docs.google.com/presentation/d/1XfOzsZjZaGj9fIPK0PO1eyLq9agr0zE-YWFO7fHhnsM/edit?usp=sharing 
   
 <h2>What technologies did i use?</h2>
   <ul>
